@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.places {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-container a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-container a:hover{
+  color: red;
+}
+
+a.active {
+  color: red;
+}
